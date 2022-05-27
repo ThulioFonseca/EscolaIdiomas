@@ -1,2 +1,2 @@
 INSERT INTO curso (codigo,nome,idioma,nivel,turno)
-VALUES('In101', 'Starter','Inglês','basico','matutino');
+VALUES('101', 'Starter','Ingles','basico','matutino');

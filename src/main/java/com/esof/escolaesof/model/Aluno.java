@@ -20,9 +20,7 @@ public class Aluno {
     @Column(nullable = false)
     private String nome;
 
-    @ManyToOne()
-    @JoinColumn(name = "curso_codigo")
-    private Curso curso;
+    private String curso;
 
     @Column(nullable = false)
     private int idade;

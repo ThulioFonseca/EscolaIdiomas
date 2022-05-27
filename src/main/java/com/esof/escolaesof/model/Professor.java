@@ -20,9 +20,7 @@ public class Professor {
 
 	private String sobrenome;
 
-	@OneToOne
-	@JoinColumn(name = "curso_codigo", referencedColumnName = "codigo")
-	private Curso curso;
+	private String curso;
 
 	private String turno;
 

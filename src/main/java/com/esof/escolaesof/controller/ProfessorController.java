@@ -46,7 +46,7 @@ public class ProfessorController {
 				
 			} catch (Exception e) {	
 
-				return "Falha ao realizar o cadastro";
+				return "Falha ao realizar o cadastro" + e.getMessage();
 			}	
 		}
 		else{
